@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventfulSearchWebsite", "EventfulSearchWebsite\EventfulSearchWebsite.csproj", "{558F26DC-2EEE-44EB-ACBE-41884AA4DC35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB} = {3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventfulSearchWebsite.Tests", "EventfulSearchWebsite.Tests\EventfulSearchWebsite.Tests.csproj", "{2FCFE1AA-9DBC-41FA-8124-D7802208A173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventfulSearch.Common", "EventfulSearch.Common\EventfulSearch.Common.csproj", "{436A985C-8FFF-4340-A6CD-650D97CDAA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventfulSearch.Business", "EventfulSearch.Business\EventfulSearch.Business.csproj", "{3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventfulSearch.Data", "EventfulSearch.Data\EventfulSearch.Data.csproj", "{526F8B6A-88F5-440C-9AD8-8CC7DC45E961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{558F26DC-2EEE-44EB-ACBE-41884AA4DC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558F26DC-2EEE-44EB-ACBE-41884AA4DC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558F26DC-2EEE-44EB-ACBE-41884AA4DC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558F26DC-2EEE-44EB-ACBE-41884AA4DC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCFE1AA-9DBC-41FA-8124-D7802208A173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCFE1AA-9DBC-41FA-8124-D7802208A173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCFE1AA-9DBC-41FA-8124-D7802208A173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCFE1AA-9DBC-41FA-8124-D7802208A173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436A985C-8FFF-4340-A6CD-650D97CDAA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436A985C-8FFF-4340-A6CD-650D97CDAA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436A985C-8FFF-4340-A6CD-650D97CDAA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436A985C-8FFF-4340-A6CD-650D97CDAA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3404417D-F0DB-457F-9AFD-E1DE5A7DE0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526F8B6A-88F5-440C-9AD8-8CC7DC45E961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526F8B6A-88F5-440C-9AD8-8CC7DC45E961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526F8B6A-88F5-440C-9AD8-8CC7DC45E961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526F8B6A-88F5-440C-9AD8-8CC7DC45E961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mrfast.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EventfulSearchWebsite.Tests\\EventfulSearchWebsite.Tests.csproj
+		SccProjectName1 = EventfulSearchWebsite.Tests
+		SccLocalPath1 = EventfulSearchWebsite.Tests
+		SccProjectUniqueName2 = EventfulSearchWebsite\\EventfulSearchWebsite.csproj
+		SccProjectName2 = EventfulSearchWebsite
+		SccLocalPath2 = EventfulSearchWebsite
+		SccProjectUniqueName3 = EventfulSearch.Common\\EventfulSearch.Common.csproj
+		SccProjectName3 = EventfulSearch.Common
+		SccLocalPath3 = EventfulSearch.Common
+		SccProjectUniqueName4 = EventfulSearch.Business\\EventfulSearch.Business.csproj
+		SccProjectName4 = EventfulSearch.Business
+		SccLocalPath4 = EventfulSearch.Business
+		SccProjectUniqueName5 = EventfulSearch.Data\\EventfulSearch.Data.csproj
+		SccProjectName5 = EventfulSearch.Data
+		SccLocalPath5 = EventfulSearch.Data
+	EndGlobalSection
+EndGlobal

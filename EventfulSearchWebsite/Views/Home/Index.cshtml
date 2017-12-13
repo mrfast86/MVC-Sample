@@ -1,0 +1,111 @@
+﻿@model EventfulSearchWebsite.Models.SearchViewModel
+
+@{
+    ViewBag.Title = "Events Calendar";
+}
+
+@using (Html.BeginForm("SearchAsync", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal" id="SearchForm">
+        <h1>Events Calendar</h1>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <hr/>
+        <div class="form-group col-md-6">
+            <div class="control-label col-md-4">
+                Address
+            </div>
+            <div class="col-md-8">
+                @Html.TextAreaFor(model => model.Address, new { htmlAttributes = new { @class = "form-control col-md-4" } })
+                @Html.ValidationMessageFor(model => model.Address, null, new { @class = "help-inline text-danger" })
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <div class="control-label col-md-4">
+                Start Date
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.StartDate, null, new { @class = "help-inline text-danger" })
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <div class="control-label col-md-4">
+                End Date
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control datepicker" } })
+                @Html.ValidationMessageFor(model => model.EndDate, null, new { @class = "help-inline text-danger" })
+            </div>
+        </div>
+        <br/>
+        <div class="form-group col-md-6">
+            <div class="control-label col-md-4">
+                Category
+            </div>
+            <div class="col-md-8">
+                @Html.DropDownListFor(model => model.Category, new SelectList(new Dictionary<string, string> { { "Music", "Music" }, { "Sports", "Sports" }, { "Performing Arts", "Performing Arts" } }, "Key", "Value"), new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Category, null, new { @class = "help-inline text-danger" })
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <div class="control-label col-md-4">
+                Radius (km)
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(model => model.Radius, new { htmlAttributes = new { @class = "number-textbox form-control", @Value = "1" } })
+                @Html.ValidationMessageFor(model => model.Radius, null, new { @class = "help-inline text-danger" })
+            </div>
+        </div>
+        @*<div class="form-group col-md-6">
+                <div class="control-label col-md-4">
+                    Lat
+                </div>
+                <div class="col-md-8">
+                    @Model.Location.Latitude
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="control-label col-md-4">
+                    Long
+                </div>
+                <div class="col-md-8">
+                    @Model.Location.Longitude
+                </div>
+            </div>*@
+        <div class="col-md-12">
+            <button type="submit" class="submit btn btn-primary pull-right">Search</button>
+        </div>
+    </div>
+}
+
+<div class="col-sm-12 col-md-12 col-xs-12 scrolldiv">
+    @if (Model.SearchResults != null)
+    {
+        for (int i = 0; i < Model.SearchResults.Count(); i++)
+        {
+            <div class="col-sm-12 col-md-12 col-xs-12">
+
+                <div class="thumbnail" style="border: none; background: white;">
+
+                    <div class="col-sm-2 col-md-2 col-xs-12 image-container">
+                        <img src="@Model.SearchResults.ElementAt(i).Image" style="height: 100px;" class="pull-right" />
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-xs-12">
+
+                        <h4><a href="@Model.SearchResults.ElementAt(i).Url">@Model.SearchResults.ElementAt(i).Title</a></h4>
+                        <p>@Model.SearchResults.ElementAt(i).Venue</p>
+                        <p>@Model.SearchResults.ElementAt(i).Teams</p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-2 col-xs-12">
+                        <h5 class="pull-right">@Model.SearchResults.ElementAt(i).Date</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+<script>
+</script>

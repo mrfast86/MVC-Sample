@@ -1,0 +1,7 @@
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\bin\Debug\EventfulSearch.Common.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\bin\Debug\EventfulSearch.Common.pdb
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\obj\Debug\EventfulSearch.Common.csprojResolveAssemblyReference.cache
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\obj\Debug\EventfulSearch.Common.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Common\obj\Debug\EventfulSearch.Common.pdb

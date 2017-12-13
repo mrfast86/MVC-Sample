@@ -1,0 +1,13 @@
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\EventfulSearch.Business.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\EventfulSearch.Business.pdb
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\EventfulSearch.Common.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\EventfulSearch.Data.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\EventfulSearch.Common.pdb
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\EventfulSearch.Data.pdb
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\obj\Debug\EventfulSearch.Business.csprojResolveAssemblyReference.cache
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\obj\Debug\EventfulSearch.Business.dll
+C:\Users\leeh\Source\Workspaces\Personal\EventfulSearchWebsite\EventfulSearch.Business\obj\Debug\EventfulSearch.Business.pdb
